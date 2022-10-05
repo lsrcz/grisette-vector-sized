@@ -1,16 +1,16 @@
 {-# LANGUAGE DataKinds #-}
 {-# LANGUAGE TypeApplications #-}
 
-module Pizza.Lib.Data.Vector.Generic.SizedTests where
+module Grisette.Lib.Data.Vector.Generic.SizedTests where
 
 import qualified Data.HashMap.Strict as M
 import qualified Data.HashSet as S
 import qualified Data.Vector as V
 import qualified Data.Vector.Generic.Sized as VSized
-import Pizza.Core
-import Pizza.Lib.Data.Vector.Generic.Sized ()
-import Pizza.TestUtils.Mergeable
-import Pizza.TestUtils.SBool
+import Grisette.Core
+import Grisette.Lib.Data.Vector.Generic.Sized ()
+import Grisette.TestUtils.Mergeable
+import Grisette.TestUtils.SBool
 import Test.Tasty
 import Test.Tasty.HUnit
 import Test.Tasty.QuickCheck

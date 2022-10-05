@@ -1,6 +1,6 @@
 module Main where
 
-import Pizza.Lib.Data.Vector.Generic.SizedTests
+import Grisette.Lib.Data.Vector.Generic.SizedTests
 import Test.Tasty
 import Test.Tasty.Ingredients
 import qualified Test.Tasty.Ingredients.ConsoleReporter as ConsoleReporter
@@ -12,8 +12,8 @@ main = defaultMainWithIngredients [composeReporters Reporter.ingredient ConsoleR
 tests :: TestTree
 tests =
   testGroup
-    "pizza-vector-sized"
+    "grisette-vector-sized"
     [ testGroup
-        "Pizza.Lib.Data.Vector.Generic"
+        "Grisette.Lib.Data.Vector.Generic"
         [sizedTests]
     ]

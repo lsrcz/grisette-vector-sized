@@ -13,14 +13,14 @@
 {-# OPTIONS_GHC -Wno-incomplete-uni-patterns #-}
 {-# OPTIONS_GHC -Wno-orphans #-}
 
-module Pizza.Lib.Data.Vector.Generic.Sized where
+module Grisette.Lib.Data.Vector.Generic.Sized where
 
 import Data.Functor.Classes
 import Data.Typeable
 import qualified Data.Vector.Generic as VGeneric
 import qualified Data.Vector.Generic.Sized as VSized
 import GHC.TypeNats
-import Pizza.Core
+import Grisette.Core
 import Unsafe.Coerce
 
 #if MIN_VERSION_base(4,16,0)

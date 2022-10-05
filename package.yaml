@@ -1,18 +1,18 @@
-name: pizza-vector-sized
+name: grisette-vector-sized
 version: 0.1.0.0
-synopsis: Support for vector-sized package with Pizza
-description: Orphan instances and wrappers for vector-sized package with Pizza
+synopsis: Support for vector-sized package with Grisette
+description: Orphan instances and wrappers for vector-sized package with Grisette
 category: Formal Methods, Theorem Provers, Symbolic Computation, SMT
 author: "Sirui Lu"
 maintainer: Sirui Lu (siruilu@cs.washington.edu)
 license: BSD3
 license-file: LICENSE
-github: lsrcz/pizza-haskell
+github: lsrcz/grisette-haskell
 copyright: "2021-2022 Sirui Lu"
 
 dependencies:
 - base > 4.14 && < 5
-- pizza-core == 0.1.0.0
+- grisette-core == 0.1.0.0
 - mtl >= 2.2.2
 - transformers >= 0.5.6.2
 - vector >= 0.12.1.2
@@ -43,8 +43,8 @@ tests:
     main: Main.hs
     source-dirs: test
     dependencies:
-      - pizza-core
-      - pizza-vector-sized
+      - grisette-core
+      - grisette-vector-sized
       - unordered-containers >= 0.2.11
       - tasty >= 1.1.0.3
       - tasty-hunit >= 0.10
